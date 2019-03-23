@@ -9,5 +9,3 @@ def alphabetize(arr)
     end
   end
 end
-
-alphabetize(array)
