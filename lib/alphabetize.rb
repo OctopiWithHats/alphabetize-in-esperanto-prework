@@ -3,5 +3,6 @@ def alphabetize(arr)
   
   arr.sort_by! do |a|
     positions = []
-    a.each_char do 
+    a.each_char do |char|
+      
 end
