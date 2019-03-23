@@ -7,5 +7,6 @@ def alphabetize(arr)
       positions << ESPERANTO_ALPHABET.index(char)
     end
     positions
-    
+  end
+  arr
 end
