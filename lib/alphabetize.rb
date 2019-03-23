@@ -1,7 +1,7 @@
 def alphabetize(arr)
   # code here
-  esperato = ["a", "b", "c", "ĉ", "d", "e", "f", "g", "ĝ", "h", "ĥ", "i", "j", "ĵ", "k", "l", "m", "n", "o", "p", "r", "s", "ŝ", "t", "u", "ŭ", "v", "z"]
-  
+  esperanto = ["abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"]
+  alphabet = esperanto.split("")
   
   
 end
