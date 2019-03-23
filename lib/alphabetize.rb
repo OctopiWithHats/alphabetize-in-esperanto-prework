@@ -10,4 +10,4 @@ def alphabetize(arr)
   end
 end
 
-alphabetize(arr)
+alphabetize()
