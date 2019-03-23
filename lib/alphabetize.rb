@@ -1,7 +1,13 @@
+ESPERANTO_ALPHABET
+
 def alphabetize(arr)
   # code here
-  esperanto = ["abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"]
-  alphabet = esperanto.split("")
-  
-  
+  arr.sort_by! do |a|
+    positions = []
+    a.each_char do |char|
+      positions << ESPERANTO_ALPHABET.index(char)
+    end
+    positions
+  end
+  arr
 end
